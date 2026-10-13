@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this software when using the code or synthetic examples."
+type: software
+title: "LOGOS theory general: reproducible dimensionless PK/PD examples"
+authors:
+  - family-names: Karalis
+    given-names: Vangelis D.
+version: 0.5.0
+license: MIT
+repository-code: "https://github.com/vkaralis/LOGOS-theory-general"
+url: "https://github.com/vkaralis/LOGOS-theory-general"
+abstract: >-
+  Research software for reproducible dimensionless examples of whole-regimen
+  design, periodic recovery, injury after cessation, and minimum-dose frontiers.
+  The associated manuscript has not yet been submitted. This citation identifies
+  the software and does not claim a journal publication or DOI.
