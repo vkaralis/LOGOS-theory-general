@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       MPLBACKEND: Agg
-      MPLCONFIGDIR: ${{ runner.temp }}/logos-matplotlib
+      MPLCONFIGDIR: ${{ github.workspace }}/.mplconfig
       OPENBLAS_NUM_THREADS: '1'
       OMP_NUM_THREADS: '1'
     steps:
