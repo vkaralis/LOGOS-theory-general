@@ -5,10 +5,17 @@ Creator: **Vangelis D. Karalis**.
 The associated manuscript has not yet been submitted. Cite the software using
 [`CITATION.cff`](CITATION.cff); no journal publication or DOI is claimed.
 
-Reproducible, dimensionless examples of whole-regimen design: dose amounts,
-administration timing, loading–maintenance–coast input, periodic recovery and
-repair, injury after cessation, recovery-gated constant-family comparisons and fixed-target minimum-dose frontiers. LOGOS means Longitudinal Optimization of
-Global Outcomes and Strategies.
+## Description
+
+**LOGOS (Longitudinal Optimization of Global Outcomes and Strategies)** is a mathematical and computational framework for whole-regimen pharmacokinetic/pharmacodynamic (PK/PD) design.
+
+Rather than optimizing dose alone, LOGOS examines the entire treatment trajectory—dose amounts, administration timing, infusion strategies, treatment pauses, recovery, cessation, and conditional restart.
+
+Through analytical benchmarks, mechanistic simulations, nested strategy comparisons, and independent safety verification, LOGOS investigates **when, why, and how additional treatment-design flexibility creates measurable value**.
+
+**The central question is not simply how much drug to give, but which treatment strategy delivers the greatest attainable benefit under explicitly defined safety and resource constraints.**
+
+This repository contains the Python implementations supporting the LOGOS research framework, including numerical experiments, optimization routines, mechanistic models, and reproducibility analyses.
 
 ## Install and reproduce
 
