@@ -1,4 +1,4 @@
-# Release validation — 2026-10-12
+# Release validation
 
 Locally executed in a newly created virtual environment, without system site
 packages, using CPython 3.12.14 on macOS arm64. Dependencies were downloaded and
@@ -21,9 +21,11 @@ The release reference is a fresh computation from the packaged source.
 Reproduction uses numerical tolerances; numerical candidates and floating-point
 bounds do not establish additional global or clinical guarantees.
 
-Only macOS arm64 was locally executed. The supplied GitHub workflow installs a
-fresh Linux CPython 3.12 environment and performs the complete pipeline; its
-remote execution has not occurred. Other Python minor versions are unsupported.
+Local execution used macOS arm64. The complete pipeline also passed on GitHub
+Actions in a fresh Linux CPython 3.12 environment on 2026-10-13:
+[verified run](https://github.com/vkaralis/LOGOS-theory-general/actions/runs/38446883227).
+The run passed file-integrity verification, all six tests, all scientific audits
+and 3,052 reference comparisons. Other Python minor versions are unsupported.
 
 The release reproduces the dimensionless models and synthetic cohort described
 in the public documentation. Clinical ANC prediction, fitted patient-specific
