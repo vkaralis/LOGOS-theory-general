@@ -1,0 +1,33 @@
+name: Clean environment reproduction
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    env:
+      MPLBACKEND: Agg
+      MPLCONFIGDIR: ${{ runner.temp }}/logos-matplotlib
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned dependencies and package
+        run: |
+          python -m pip install -r requirements-lock.txt
+          python -m pip install --no-build-isolation --no-deps .
+          python -m pip check
+      - name: Verify integrity and scientific calculations
+        run: |
+          python scripts/verify_manifest.py
+          python -m unittest discover -s tests -v
+          logos-pkpd reproduce --output results
+          python scripts/check_reproducibility.py results
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: logos-results
+          path: results/

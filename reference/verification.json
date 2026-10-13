@@ -1,0 +1,20 @@
+{
+  "version": "0.5.0",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.1",
+  "matplotlib": "3.10.9",
+  "all_passed": true,
+  "finite_ode_max_error": 6.602496327445806e-13,
+  "periodic_ode_max_error": 4.3565151486291143e-13,
+  "periodic_checks": 45,
+  "analytical_checks": 13,
+  "recovery_checks": 73,
+  "frontier_checks": 20,
+  "tail_peak": {
+    "time": 1.2792139405522478,
+    "value": 0.3871318413405635,
+    "attained": true
+  },
+  "data_kind": "synthetic; dimensionless; no clinical observations"
+}

@@ -1,0 +1,407 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "constant local maximum below global derivative-grid upper bound",
+      "error": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "check": "cycle positive strict margin against full constant family",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "cycle satisfies injury cap",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "cycle periodic closure",
+      "error": 4.914957330015568e-13,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 0",
+      "error": 1.7203882249350322e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 0",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 1",
+      "error": 1.656560040530497e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 1",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 2",
+      "error": 2.7376264033485143e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 2",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 3",
+      "error": 2.7115678383204944e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 3",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 4",
+      "error": 1.7245014680145054e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 4",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 5",
+      "error": 2.124980946760502e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 5",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 6",
+      "error": 4.442864143250347e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 6",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 7",
+      "error": 3.307424700782491e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 7",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 8",
+      "error": 5.198594660305034e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 8",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 9",
+      "error": 4.4826751761928296e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 9",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 10",
+      "error": 2.1678088046872546e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 10",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 11",
+      "error": 5.5034473561699215e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 11",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 12",
+      "error": 3.113017982281363e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 12",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 13",
+      "error": 2.1663660795812056e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 13",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 15",
+      "error": 2.5194825226115825e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 15",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 16",
+      "error": 3.329430196125083e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 16",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 17",
+      "error": 1.4311618751206012e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 17",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 19",
+      "error": 2.357099217892289e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 19",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 20",
+      "error": 2.3604863827464406e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 20",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 21",
+      "error": 1.6568944133377173e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 21",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 22",
+      "error": 2.2059539389607252e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 22",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 23",
+      "error": 3.324752785582863e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 23",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 25",
+      "error": 2.9385332854514612e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 25",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 26",
+      "error": 1.9947165634526254e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 26",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 27",
+      "error": 4.0647218910172533e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 27",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 28",
+      "error": 4.5211922400367754e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 28",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 29",
+      "error": 1.6308590797264877e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 29",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 30",
+      "error": 2.6872998201699083e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 30",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "screen vs independent selected ODE case 31",
+      "error": 2.3649511723955463e-08,
+      "tolerance": 8e-06,
+      "passed": true
+    },
+    {
+      "check": "selected full-path injury case 31",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "information quadrature convergence SD 0",
+      "error": 0.0,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "check": "information quadrature convergence SD 0.25",
+      "error": 3.7000996711000766e-10,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "check": "information quadrature convergence SD 0.5",
+      "error": 9.321077243384934e-11,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "check": "information quadrature convergence SD 1.0",
+      "error": 1.855043341159046e-10,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "check": "information quadrature convergence SD 2.0",
+      "error": 2.031078638609074e-10,
+      "tolerance": 2e-06,
+      "passed": true
+    }
+  ]
+}

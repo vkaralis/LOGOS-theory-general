@@ -1,0 +1,78 @@
+{
+  "initial_state": {
+    "C": 0,
+    "R": 1,
+    "Z": 0,
+    "relative_burden": 1
+  },
+  "administration_horizon": 20.0,
+  "outcome_horizon": 25.0,
+  "available_amount_cap": 20,
+  "peak_input_cap": 5,
+  "injury_cap": 0.22,
+  "constant_family": "Every constant input u in [0,1] until H; zero thereafter. Upper bound relaxes the injury constraint, hence also bounds every safe member.",
+  "best_constant": {
+    "input": 0.30770607472184924,
+    "amount": 6.154121494436985,
+    "J": 0.046897023015550064,
+    "peak_Z": 0.07359441460592768,
+    "tail_state_Z": 0.0027386410767496635,
+    "tail_equilibrium_Z": 1.8120842575915488e-10,
+    "tail_declining": true
+  },
+  "constant_upper_bound": 0.05030740723370942,
+  "constant_derivative_absolute_bound": 27.93714285714286,
+  "grid_intervals": 4096,
+  "numerical_integration_allowance": 1e-07,
+  "cycle": {
+    "period": 1.6666666666666667,
+    "duty": 0.2,
+    "amount": 20.0,
+    "J": 0.055236120595388565,
+    "peak_Z": 0.1883596641268656,
+    "tail_state_Z": 0.003626730018063651,
+    "tail_equilibrium_Z": 1.0481986657382906e-11,
+    "tail_declining": true
+  },
+  "strict_numeric_lower_margin": 0.004928713361679146,
+  "realized_amounts_differ": true,
+  "checks": [
+    {
+      "check": "constant independent Radau objective",
+      "error": 5.898059818321144e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "check": "cycle independent Radau objective",
+      "error": 1.5835249778106686e-13,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "check": "cycle full-path injury",
+      "error": 0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "constant below conservative upper bound",
+      "error": 0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "check": "strict lower margin positive",
+      "error": 0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "declining complete injury tails",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}

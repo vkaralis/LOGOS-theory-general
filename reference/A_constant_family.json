@@ -1,0 +1,59 @@
+{
+  "comparison": "Common average input cap 1, peak-input cap 5, injury cap .22; realized amounts may differ",
+  "constant": {
+    "input": 0.2968963810151481,
+    "J": 0.07338107516074324,
+    "injury": 0.07117366571207538,
+    "max_admissible_constant": 0.8331732031588702
+  },
+  "constant_global_upper_bound": 0.0737171550707567,
+  "derivative_absolute_bound": 806.7468054977095,
+  "grid_intervals": 1000000,
+  "cycle": {
+    "T": 1.679903,
+    "f": 0.2,
+    "J": 0.08090537290795416,
+    "peak_Z": 0.18804876103038587,
+    "closure_residual": 4.914957330015568e-13,
+    "mean_C": 1.0000000000000002
+  },
+  "certified_numeric_lower_margin": 0.007188217837197461,
+  "null_controls": [
+    {
+      "control": "R_clamped",
+      "constant": {
+        "input": 0.8331732031588702,
+        "J": 0.4108576330163589,
+        "injury": 0.2200000000000294,
+        "max_admissible_constant": 0.8331732031588702
+      },
+      "cycle": {
+        "T": 1.679903,
+        "f": 0.2,
+        "J": 0.30501101078542975,
+        "peak_Z": 0.1880487610303866,
+        "closure_residual": 1.0258460747536446e-13,
+        "mean_C": 1.0000000000000002
+      },
+      "cycle_minus_constant": -0.10584662223092917
+    },
+    {
+      "control": "recovery_disabled",
+      "constant": {
+        "input": 0.8331732031588702,
+        "J": -0.043640175332121556,
+        "injury": 0.2200000000000294,
+        "max_admissible_constant": 0.8331732031588702
+      },
+      "cycle": {
+        "T": 1.679903,
+        "f": 0.2,
+        "J": -0.05148066586775671,
+        "peak_Z": 0.18804876103031648,
+        "closure_residual": 1.211530875622202e-14,
+        "mean_C": 1.0000000000000002
+      },
+      "cycle_minus_constant": -0.007840490535635153
+    }
+  ]
+}

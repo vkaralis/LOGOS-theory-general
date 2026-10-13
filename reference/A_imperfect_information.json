@@ -1,0 +1,72 @@
+{
+  "calendar_wait": 1.7320176387601176,
+  "calendar_value": 0.48240674915787407,
+  "ideal_value": 0.4904314349277805,
+  "prior_rates": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "prior_probabilities": [
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ],
+  "shared_wait_bounds": [
+    0,
+    6
+  ],
+  "noise_results": [
+    {
+      "log_rate_measurement_SD": 0,
+      "expected_value": 0.4904314349277805,
+      "calendar_value": 0.48240674915787407,
+      "information_increment": 0.008024685769906448,
+      "relative_gain_percent": 1.6634688017767019,
+      "break_even_cost": 0.008024685769906448,
+      "net_gain_at_cost_002": 0.006024685769906448,
+      "net_gain_at_cost_01": -0.0019753142300935524
+    },
+    {
+      "log_rate_measurement_SD": 0.25,
+      "expected_value": 0.48928952007485205,
+      "calendar_value": 0.48240674915787407,
+      "information_increment": 0.006882770916977976,
+      "relative_gain_percent": 1.4267567626267796,
+      "break_even_cost": 0.006882770916977976,
+      "net_gain_at_cost_002": 0.004882770916977976,
+      "net_gain_at_cost_01": -0.003117229083022024
+    },
+    {
+      "log_rate_measurement_SD": 0.5,
+      "expected_value": 0.4868202907293421,
+      "calendar_value": 0.48240674915787407,
+      "information_increment": 0.004413541571468005,
+      "relative_gain_percent": 0.9149004609020572,
+      "break_even_cost": 0.004413541571468005,
+      "net_gain_at_cost_002": 0.002413541571468005,
+      "net_gain_at_cost_01": -0.005586458428531995
+    },
+    {
+      "log_rate_measurement_SD": 1.0,
+      "expected_value": 0.48423356792456235,
+      "calendar_value": 0.48240674915787407,
+      "information_increment": 0.0018268187666882763,
+      "relative_gain_percent": 0.3786884760375475,
+      "break_even_cost": 0.0018268187666882763,
+      "net_gain_at_cost_002": -0.0001731812333117238,
+      "net_gain_at_cost_01": -0.008173181233311724
+    },
+    {
+      "log_rate_measurement_SD": 2.0,
+      "expected_value": 0.4829578627948229,
+      "calendar_value": 0.48240674915787407,
+      "information_increment": 0.000551113636948819,
+      "relative_gain_percent": 0.1142425220855392,
+      "break_even_cost": 0.000551113636948819,
+      "net_gain_at_cost_002": -0.001448886363051181,
+      "net_gain_at_cost_01": -0.009448886363051181
+    }
+  ],
+  "interpretation": "Decision-model value only; sensor errors and costs are hypothetical, not estimated from clinical observations"
+}

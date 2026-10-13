@@ -1,0 +1,75 @@
+{
+  "seed": 20261003,
+  "timing_starts": 24,
+  "successful_timing_starts": 24,
+  "rows": [
+    {
+      "regimen": "equal",
+      "doses": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "times": [
+        0,
+        1,
+        2
+      ],
+      "J": 0.629606362035524,
+      "adjacent_gain_percent": 0.0,
+      "C_upper_bound": 1.0,
+      "injury_upper_bound_full_tail": 0.5
+    },
+    {
+      "regimen": "amounts",
+      "doses": [
+        0.6284020958950978,
+        0.3715979041049023,
+        1.5070676053810594e-17
+      ],
+      "times": [
+        0,
+        1,
+        2
+      ],
+      "J": 0.6729453961277572,
+      "adjacent_gain_percent": 6.883512732005692,
+      "C_upper_bound": 1.0,
+      "injury_upper_bound_full_tail": 0.5
+    },
+    {
+      "regimen": "timing",
+      "doses": [
+        0.529423904074839,
+        0.2352880424592924,
+        0.2352880534658687
+      ],
+      "times": [
+        0,
+        0.5877481190448682,
+        1.1754959142166874
+      ],
+      "J": 0.677043273327301,
+      "adjacent_gain_percent": 0.6089464647687226,
+      "C_upper_bound": 1.0,
+      "injury_upper_bound_full_tail": 0.5
+    },
+    {
+      "regimen": "expanded",
+      "doses": [
+        0.40053444544603245
+      ],
+      "times": [
+        0
+      ],
+      "J": 0.6795526905901952,
+      "concentration": 0.40053444544603245,
+      "maintenance": 1.4966641730061612,
+      "coast": 1.5033358269938388,
+      "adjacent_gain_percent": 0.3706435558486154,
+      "C_upper_bound": 1.0,
+      "injury_upper_bound_full_tail": 0.5
+    }
+  ],
+  "evidence": "Timing is a numerical candidate; expanded design has a supporting analytic certificate for the declared ideal class."
+}

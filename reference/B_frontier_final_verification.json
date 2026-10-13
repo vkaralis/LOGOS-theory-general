@@ -1,0 +1,125 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "frontier target 10.0",
+      "error": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "check": "frontier injury 10.0",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "frontier ODE J 10.0",
+      "error": 7.105427357601002e-15,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "check": "frontier ODE peak 10.0",
+      "error": 1.3322676295501878e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "check": "frontier lower dose bound 10.0",
+      "error": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "check": "frontier target 11.0",
+      "error": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "check": "frontier injury 11.0",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "frontier ODE J 11.0",
+      "error": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "check": "frontier ODE peak 11.0",
+      "error": 4.440892098500626e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "check": "frontier lower dose bound 11.0",
+      "error": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "check": "frontier target 12.0",
+      "error": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "check": "frontier injury 12.0",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "frontier ODE J 12.0",
+      "error": 7.105427357601002e-15,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "check": "frontier ODE peak 12.0",
+      "error": 4.440892098500626e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "check": "frontier lower dose bound 12.0",
+      "error": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "check": "frontier target 13.0",
+      "error": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "check": "frontier injury 13.0",
+      "error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "check": "frontier ODE J 13.0",
+      "error": 3.552713678800501e-15,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "check": "frontier ODE peak 13.0",
+      "error": 8.881784197001252e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "check": "frontier lower dose bound 13.0",
+      "error": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    }
+  ]
+}

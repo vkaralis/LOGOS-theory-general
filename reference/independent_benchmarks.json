@@ -1,0 +1,142 @@
+{
+  "purpose": "Independent benchmark implementation checks",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "scipy": "1.17.1",
+  "checks": [
+    {
+      "name": "Finite reference row 0",
+      "error": 3.6203552400415617e-07,
+      "tolerance": 5e-07,
+      "passed": true
+    },
+    {
+      "name": "Finite reference row 1",
+      "error": 3.96127756929765e-07,
+      "tolerance": 5e-07,
+      "passed": true
+    },
+    {
+      "name": "Finite reference row 2",
+      "error": 2.733272983501678e-07,
+      "tolerance": 5e-07,
+      "passed": true
+    },
+    {
+      "name": "Finite reference row 3",
+      "error": 3.094098047773386e-07,
+      "tolerance": 5e-07,
+      "passed": true
+    },
+    {
+      "name": "Emax supporting marginal inequality 16 cases",
+      "error": 1.1102230246251565e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "Theory B supporting condition 35 cases",
+      "error": 1.7763568394002505e-15,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "B dose",
+      "error": 2.8283153596930788e-11,
+      "tolerance": 6e-07,
+      "passed": true
+    },
+    {
+      "name": "B optimum",
+      "error": 3.3705011404094876e-07,
+      "tolerance": 6e-07,
+      "passed": true
+    },
+    {
+      "name": "B floor",
+      "error": 4.0804543388617276e-07,
+      "tolerance": 6e-07,
+      "passed": true
+    },
+    {
+      "name": "B stopping increment",
+      "error": 7.099532028931321e-08,
+      "tolerance": 6e-07,
+      "passed": true
+    },
+    {
+      "name": "Quadratic injury tails 24 cases",
+      "error": 4.0731102565660297e-10,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "Theory A wait",
+      "error": 1.675386949173685e-07,
+      "tolerance": 5e-07,
+      "passed": true
+    },
+    {
+      "name": "Theory A waiting value",
+      "error": 5.7018924581875297e-08,
+      "tolerance": 5e-07,
+      "passed": true
+    }
+  ],
+  "results": {
+    "finite_emax": {
+      "objectives": [
+        0.629606362035524,
+        0.672945396127757,
+        0.6770432733272983,
+        0.6795526905901952
+      ],
+      "adjacent_gain_percent": [
+        6.88351273200567,
+        0.6089464647683451,
+        0.3706435558490151
+      ],
+      "amounts": [
+        0.6284021231084183,
+        0.37159787689158186,
+        0.0
+      ],
+      "timing": [
+        0.5294238207181572,
+        0.23528818888597683,
+        0.23528799039586593,
+        0.5877482511805265,
+        1.1754960574944284
+      ],
+      "plateau": 0.40053444544603245,
+      "maintenance": 1.4966641730061612,
+      "coast": 1.5033358269938388
+    },
+    "theory_B_allocation": {
+      "B": 12.613903616328283,
+      "J": 28.826261662949886,
+      "reference_J": 25.460925472460776,
+      "floor_J": 28.686783591954566,
+      "shape_gain": 3.2258581194937896,
+      "stop_gain": 0.13947807099532028,
+      "total_gain": 3.36533619048911,
+      "coast": 0.7953654612239056
+    },
+    "delayed_injury": {
+      "quadratic_peak_time": 1.2792139405522478,
+      "quadratic_peak": 0.3871318413405635,
+      "theory_B_peak_time": 2.0117973905426254,
+      "theory_B_peak": 0.668740304976422
+    },
+    "theory_A_wait": {
+      "wait": 1.850190832461305,
+      "value": 0.5098199429810755,
+      "calendar_wait": 1.7320176235499418,
+      "calendar_value": 0.48240674915787407,
+      "ideal_value": 0.4904314349277805,
+      "gain_percent": 1.6634688017767019,
+      "positive_window_end": 4.5931685919385306
+    }
+  },
+  "all_passed": true
+}

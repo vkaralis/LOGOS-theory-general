@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+results/
+.mplconfig/
+.DS_Store
+notebook_results/
+release/
